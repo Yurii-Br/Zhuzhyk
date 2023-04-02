@@ -123,25 +123,25 @@
 }
 
 .StyleAnnouncement1 {
-  background-color: #db0f0f;
+  background-color: yellow;
   width: 250px;
   height: 250px;
   margin-left: 100px;
 }
 .StyleAnnouncement2 {
-  background-color: #07ed2a;
+  background-color: yellow;
   width: 250px;
   height: 250px;
   margin-left: 50px;
 }
 .StyleAnnouncement3 {
-  background-color: #ed07a8;
+  background-color: yellow;
   width: 250px;
   height: 250px;
   margin-left: 50px;
 }
 .StyleAnnouncement4 {
-  background-color: #2607ed;
+  background-color: yellow;
   width: 250px;
   height: 250px;
   margin-left: 50px;
@@ -150,5 +150,6 @@
 .Footer {
   width: 1350px;
   height: 150px;
-  background-color: grey;
+  background-color: rgb(30, 30, 30);
+  margin: 0 auto;
 }
