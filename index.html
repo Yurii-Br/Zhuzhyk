@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Вантажне Таксі</title>
+    <link rel="icon" href="./img/car2.svg" type="image/x-icon" />
+    <title>Usługi przeprowadzkowe</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -12,40 +23,92 @@
     <header class="head">
       <div class="box-flex">
         <!-- logo -->
-        <a href="./index.html"><span>Ż</span>użyk</a>
+        <a href="./index.html" class="logo-link"><span>Ż</span>użyk</a>
 
         <!-- navigation -->
-        <div class="box-flex">
-          <nav>
-            <a href="" class="nav-link">Zamówienie</a>
-            <a href="" class="nav-link">Ceny</a>
-            <a href="" class="nav-link">O nas</a>
-          </nav>
-        </div>
+
+        <nav class="nav-box">
+          <ul class="box-flex">
+            <li class="nav-list-li">
+              <a href="" class="nav-link">Zamówienie</a>
+            </li>
+            <li class="nav-list-li">
+              <a href="" class="nav-link">Ceny</a>
+            </li>
+            <li class="nav-list-li">
+              <a href="" class="nav-link">O nas</a>
+            </li>
+          </ul>
+        </nav>
+
         <!-- address -->
-        <div class="">
-          <address class="box-flex addr">
-            <a href="maillto:res123kargo@gmail.com" class="contacts"
-              >res123kargo@gmail.com</a
-            >
-            <a href="tel:+48444444444" class="contacts"
-              >Orange: +48 444 444 444</a
-            >
-            <a href="tel:+48333333333" class="contacts"
-              >Play: +48 333 333 333</a
-            >
+        <div class="addr-box">
+          <address class="addr-box-adr box-flex">
+            <ul class="box-flex addr">
+              <li class="addr-li">
+                <a href="mailto:res123kargo@gmail.com" class="contacts"
+                  >res123kargo@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+48444444444" class="contacts"
+                  >Orange: +48 444 444 444</a
+                >
+              </li>
+              <li>
+                <a href="tel:+48333333333" class="contacts"
+                  >Play: +48 333 333 333</a
+                >
+              </li>
+            </ul>
+            <ul class="soc-media box-flex">
+              <li class="soc-med-li">
+                <button class="soc-media-btn">
+                  <svg class="soc-media-link">
+                    <use
+                      href="./img/symbol-defs.svg#icon-logo_grey_facebook"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="soc-med-li">
+                <button class="soc-media-btn">
+                  <svg class="soc-media-link">
+                    <use
+                      href="./img/symbol-defs.svg#icon-logo_grey_instagramm"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="soc-med-li">
+                <button class="soc-media-btn">
+                  <svg class="soc-media-link">
+                    <use
+                      href="./img/symbol-defs.svg#icon-logo_grey_twitter"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
           </address>
         </div>
       </div>
     </header>
     <main>
       <!-- blue-line -->
-      <div class="line"></div>
+      <div class="line">
+        <img src="./img/car.svg" class="car" alt="przeprowadzka mebli" />
+      </div>
       <!-- hero-img -->
       <section>
-        <img src="" alt="" />
-        <h1>Przewozy Żużyk - szybko, solidnie, sprawnie!</h1>
-        <button type="button">Zamów usługę</button>
+        <div class="box-hero">
+          <h1 class="title-hero">
+            Przewozy Żużyk - szybko, solidnie, sprawnie!
+          </h1>
+          <button type="button" class="btn-order">Zamów usługę</button>
+        </div>
       </section>
     </main>
   </body>
