@@ -57,11 +57,11 @@ a {
 }
 .nav-link:hover {
   color: var(--color-blue-logo);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .nav-link:focus {
   color: var(--color-blue-logo);
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* address */
 
@@ -85,11 +85,11 @@ a {
 }
 .contacts:hover {
   color: var(--color-blue-logo);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .contacts:focus {
   color: var(--color-blue-logo);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .soc-media {
   flex-direction: column;
@@ -98,12 +98,14 @@ a {
   width: 32px;
   height: 32px;
 }
-.soc-media-btn {
-  background: none;
-  border: none;
+.soc-media-link {
   cursor: pointer;
+  fill: black;
+  opacity: 0.1;
 }
 .soc-media-link:hover {
+  fill: #4d5ae5;
+  opacity: 0.7;
 }
 @keyframes moveRight {
   0% {
